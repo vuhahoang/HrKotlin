@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F4F4F4">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        app:cardCornerRadius="3px"
+        android:layout_marginHorizontal="15sp"
+        android:background="@color/black">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:weightSum="9">
+           <LinearLayout
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="3"
+               android:orientation="vertical"
+               android:gravity="center">
+               <TextView
+                   android:id="@+id/month_item_salary"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Tháng 9"
+                   android:textColor="#0092FF"
+                   android:textFontWeight="700"
+                   android:textSize="18sp"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textFontWeight="700"
+                   android:textSize="10sp"
+                   android:text="3,750,000 VND"
+                   android:textColor="#000000"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_marginVertical="19sp"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="3"
+               android:orientation="vertical"
+               android:gravity="center_vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Lương cứng:"
+                   android:textColor="#000000"
+                   android:textFontWeight="400"
+                   android:textSize="12sp"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Lương thưởng dữ án:"
+                   android:textColor="#000000"
+                   android:textFontWeight="400"
+                   android:textSize="12sp"
+                   android:layout_marginTop="6sp"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Lương làm thêm:"
+                   android:textColor="#000000"
+                   android:textFontWeight="400"
+                   android:textSize="12sp"
+                   android:layout_marginTop="6sp"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Lương onsite:"
+                   android:textColor="#000000"
+                   android:textFontWeight="400"
+                   android:textSize="12sp"
+                   android:layout_marginTop="6sp"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Lương khấu trừ:"
+                   android:textColor="#000000"
+                   android:textFontWeight="400"
+                   android:textSize="12sp"
+                   android:layout_marginTop="6sp"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Lương tổng sau thuế:"
+                   android:textColor="#000000"
+                   android:textFontWeight="400"
+                   android:textSize="12sp"
+                   android:layout_marginTop="6sp"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Lương tổng trước thuế:"
+                   android:textColor="#000000"
+                   android:textFontWeight="400"
+                   android:textSize="12sp"
+                   android:layout_marginTop="6sp"/>
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_marginVertical="19sp"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="3"
+               android:orientation="vertical"
+               android:gravity="center_vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="3,000,000 VND"
+                   android:textColor="#000000"
+                   android:textFontWeight="400"
+                   android:textSize="12sp"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="300,000 VND"
+                   android:textColor="#000000"
+                   android:textFontWeight="400"
+                   android:textSize="12sp"
+                   android:layout_marginTop="6sp"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="250,000 VND"
+                   android:textColor="#000000"
+                   android:textFontWeight="400"
+                   android:textSize="12sp"
+                   android:layout_marginTop="6sp"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="0"
+                   android:textColor="#000000"
+                   android:textFontWeight="400"
+                   android:textSize="12sp"
+                   android:layout_marginTop="6sp"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="0"
+                   android:textColor="#000000"
+                   android:textFontWeight="400"
+                   android:textSize="12sp"
+                   android:layout_marginTop="6sp"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="0"
+                   android:textColor="#000000"
+                   android:textFontWeight="400"
+                   android:textSize="12sp"
+                   android:layout_marginTop="6sp"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="0"
+                   android:textColor="#000000"
+                   android:textFontWeight="400"
+                   android:textSize="12sp"
+                   android:layout_marginTop="6sp"/>
+
+           </LinearLayout>
+
+       </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>
