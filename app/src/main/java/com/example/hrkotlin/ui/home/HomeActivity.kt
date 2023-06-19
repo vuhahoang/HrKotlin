@@ -39,7 +39,7 @@ class HomeActivity : BaseActivity<HomeActivityPresenter>() {
     val homeFragment: HomeFragment = HomeFragment()
 
     try {
-      addFragment(R.id.testlayout,homeFragment,true,"test")
+      addFragment(R.id.container_fragment,homeFragment,true,"test")
     } catch (e : Exception) {
       Logger.info(e)
     }
